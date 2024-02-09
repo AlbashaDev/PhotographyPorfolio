@@ -8,7 +8,7 @@ export default function Home() {
         Site is currently underdevelopment, if you would like book a session or
         discuss a request write me at:{" "}
         <a
-          href="malito:albashahmad.se@gmail.com?subject: Inquiry!"
+          href="mailto:albashahmad.se@gmail.com?subject=Inquiry!"
           className="text-blue-700	no-underline hover:underline"
         >
           albashahmad.se@gmail.com
