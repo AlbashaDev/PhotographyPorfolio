@@ -38,11 +38,8 @@ export default function Home() {
           <div className="pb-4 text-neutral-500 font-burtons text-lg">
             <h1 className="hidden sm:block">Recent Work</h1>
           </div>
-          <div
-            class="carousel-container"
-            className="overflow-scroll absolute h-[60vh] sm:h-[60vh] border-black border-4 "
-          >
-            <div class="carousel-slide" className="flex h-[100%] w-[100%] ">
+          <div className="carousel-container overflow-scroll absolute h-[60vh] sm:h-[60vh] border-black border-4 ">
+            <div className="carousel-slider flex h-[100%] w-[100%] ">
               <Image
                 className="mr-6"
                 src="/DSC_1.jpeg"
