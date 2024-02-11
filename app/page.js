@@ -33,45 +33,47 @@ export default function Home() {
             alt="logo"
           />
         </nav>
-        <div className="p-4 text-neutral-500 font-burtons text-lg">
-          <h1 className="hidden sm:block">Recent Work</h1>
-        </div>
         {/* Images Carousel */}
-        <div
-          class="carousel-container"
-          className=" overflow-scroll absolute h-[60vh] sm:h-[60vh] border-black border-4 "
-        >
-          <div class="carousel-slide" className="flex h-[100%] w-[100%]">
-            <Image
-              className=""
-              src="/DSC_1.jpeg"
-              width={1000}
-              height={1000}
-              alt="slide"
-            />
-            <Image
-              className=""
-              src="/DSC_3.jpeg"
-              width={1000}
-              height={1000}
-              alt="slide"
-            />
-            <Image
-              className=""
-              src="/DSC_3.jpeg"
-              width={1000}
-              height={1000}
-              alt="slide"
-            />
-            <Image
-              className=""
-              src="/DSC_4.jpeg"
-              width={1000}
-              height={1000}
-              alt="slide"
-            />
+        <section className="pl-10">
+          <div className="pb-4 text-neutral-500 font-burtons text-lg">
+            <h1 className="hidden sm:block">Recent Work</h1>
           </div>
-        </div>
+          <div
+            class="carousel-container"
+            className="overflow-scroll absolute h-[60vh] sm:h-[60vh] border-black border-4 "
+          >
+            <div class="carousel-slide" className="flex h-[100%] w-[100%] ">
+              <Image
+                className="mr-6"
+                src="/DSC_1.jpeg"
+                width={1000}
+                height={1000}
+                alt="slide"
+              />
+              <Image
+                className="mr-6"
+                src="/DSC_3.jpeg"
+                width={1000}
+                height={1000}
+                alt="slide"
+              />
+              <Image
+                className="mr-6"
+                src="/DSC_3.jpeg"
+                width={1000}
+                height={1000}
+                alt="slide"
+              />
+              <Image
+                className=""
+                src="/DSC_4.jpeg"
+                width={1000}
+                height={1000}
+                alt="slide"
+              />
+            </div>
+          </div>
+        </section>
       </section>
     </main>
   );
