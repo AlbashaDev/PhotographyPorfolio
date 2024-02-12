@@ -2,18 +2,18 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="sm:min-h-screen p-5 sm:py-14 sm:px-10 bg-neutral-700">
-      <section className="bg-stone-200 min-h-[84vh] sm:min-h-[85vh] p-10 rounded-lg">
+    <main className="lg:min-h-screen p-5 lg:py-14 lg:px-10 bg-neutral-700">
+      <section className="bg-stone-200 min-h-[84vh] lg:min-h-[85vh] p-10 rounded-lg">
         <nav className=" flex  justify-between">
-          {/* Nav on SM Breakpoint = 640px */}
+          {/* Nav on lg Breakpoint = 640px */}
           <Image
-            className="hidden sm:block -mt-11 -ml-5"
+            className="hidden lg:block -mt-11 -ml-5"
             src="/A.png"
             width={130}
             height={130}
             alt="logo"
           />
-          <ul className="hidden sm:block justify-ends flex space-x-4 text-base font-burtons text-neutral-500">
+          <ul className="hidden lg:block justify-ends flex space-x-4 text-base font-burtons text-neutral-500">
             <li>
               <a
                 href="https://calendly.com/albashafoto/30min"
@@ -26,7 +26,7 @@ export default function Home() {
           </ul>
           {/* Nav For Phones */}
           <Image
-            className=" sm:hidden -mt-11 -ml-5"
+            className=" lg:hidden -mt-16 -ml-6"
             src="/Name.png"
             width={130}
             height={130}
@@ -34,35 +34,35 @@ export default function Home() {
           />
         </nav>
         {/* Images Carousel */}
-        <section className="pl-10">
-          <div className="pb-4 text-neutral-500 font-burtons text-lg">
-            <h1 className="hidden sm:block">Recent Work</h1>
+        <section className="pl-10 -mt-4 lg:-mt-0">
+          <div className="lg:pb-4 text-neutral-500 font-burtons text-lg">
+            <h1 className="hidden lg:block">Recent Work</h1>
           </div>
-          <div className="carousel-container overflow-scroll absolute h-[60vh] sm:h-[60vh] ">
-            <div className="carousel-slider flex h-[100%] w-[100%] ">
+          <div className="carousel-container overflow-scroll absolute h-[60vh] lg:h-[60vh] ">
+            <div className="carousel-slider flex h-full w-full ">
               <Image
-                className="mr-6 border-black border-2"
+                className="mr-6 border-black border-2 object-cover"
                 src="/DSC_1.jpeg"
                 width={1000}
                 height={1000}
                 alt="slide"
               />
               <Image
-                className="mr-6 border-black border-2"
+                className="mr-6 border-black border-2 object-cover"
                 src="/DSC_2.jpeg"
                 width={1000}
                 height={1000}
                 alt="slide"
               />
               <Image
-                className="mr-6 border-black border-2"
+                className="mr-6 border-black border-2 object-cover"
                 src="/DSC_3.jpeg"
                 width={1000}
                 height={1000}
                 alt="slide"
               />
               <Image
-                className="border-black border-2"
+                className="border-black border-2 object-cover"
                 src="/DSC_4.jpeg"
                 width={1000}
                 height={1000}
