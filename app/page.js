@@ -38,24 +38,24 @@ export default function Home() {
           <div className="pb-4 text-neutral-500 font-burtons text-lg">
             <h1 className="hidden sm:block">Recent Work</h1>
           </div>
-          <div className="carousel-container overflow-scroll absolute h-[60vh] sm:h-[60vh] border-black border-4 ">
+          <div className="carousel-container overflow-scroll absolute h-[60vh] sm:h-[60vh] ">
             <div className="carousel-slider flex h-[100%] w-[100%] ">
               <Image
-                className="mr-6"
+                className="mr-6 border-black border-2"
                 src="/DSC_1.jpeg"
                 width={1000}
                 height={1000}
                 alt="slide"
               />
               <Image
-                className="mr-6"
-                src="/DSC_3.jpeg"
+                className="mr-6 border-black border-2"
+                src="/DSC_2.jpeg"
                 width={1000}
                 height={1000}
                 alt="slide"
               />
               <Image
-                className="mr-6"
+                className="mr-6 border-black border-2"
                 src="/DSC_3.jpeg"
                 width={1000}
                 height={1000}
@@ -63,7 +63,7 @@ export default function Home() {
               />
               <Image
                 className=""
-                src="/DSC_4.jpeg"
+                src="/DSC_4.jpeg border-black border-2"
                 width={1000}
                 height={1000}
                 alt="slide"
