@@ -62,8 +62,8 @@ export default function Home() {
                 alt="slide"
               />
               <Image
-                className=""
-                src="/DSC_4.jpeg border-black border-2"
+                className="border-black border-2"
+                src="/DSC_4.jpeg"
                 width={1000}
                 height={1000}
                 alt="slide"
